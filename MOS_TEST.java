@@ -3,7 +3,7 @@ package MOS;
 import javax.swing.*;
 import java.lang.*;
 
-public class MOS_TEST
+public class Mos_Test
 {
     public void main()
     {
@@ -20,14 +20,14 @@ public class MOS_TEST
         {
             if (pilih == 1)
             {
-                MOS_WORD baru = new MOS_WORD();
+                Mos_Word baru = new Mos_Word();
                 baru.startword();
                 pilih = choice();
             }
           
             else if (pilih == 2)
             {
-                MOS_EXCEL baru = new MOS_EXCEL();
+                Mos_Excel baru = new Mos_Excel();
                 baru.startexcel();
                 pilih = choice();
             }
