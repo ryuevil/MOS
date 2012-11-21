@@ -7,7 +7,7 @@ import java.util.Enumeration;
 import java.util.List;
 import javax.swing.*;
 
-public class MOS_EXCEL extends JDialog 
+public class Mos_Excel extends JDialog 
 {
     List<Question> questions = new ArrayList<Question>();
     int score=0;
@@ -15,7 +15,7 @@ public class MOS_EXCEL extends JDialog
     JButton btnOk = new JButton("Ok");
     
     
-        public MOS_EXCEL()
+        public Mos_Excel()
         {
             super();
             setModal(true);
@@ -72,7 +72,7 @@ public class MOS_EXCEL extends JDialog
         
     public static void main(String args[]) 
     {
-        MOS_EXCEL quiz = new MOS_EXCEL();
+        Mos_Excel quiz = new Mos_Excel();
         int score = quiz.startexcel();
         
         JOptionPane.showMessageDialog(null,"Your score: "+score,"",JOptionPane.INFORMATION_MESSAGE); 
