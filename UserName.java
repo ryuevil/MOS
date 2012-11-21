@@ -80,7 +80,7 @@ public class UserName
                     if(count == 1)
                     {
                         JOptionPane.showMessageDialog(null,"Selamat Datang");
-                        MOS_TEST baru = new MOS_TEST();
+                        Mos_Test baru = new Mos_Test();
                         baru.main();
                         System.exit(0);
                     }
