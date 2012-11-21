@@ -7,7 +7,7 @@ import java.util.Enumeration;
 import java.util.List;
 import javax.swing.*;
 
-public class MOS_WORD extends JDialog 
+public class Mos_Word extends JDialog 
 {
     List<Question> questions = new ArrayList<Question>();
     int score=0;
@@ -15,7 +15,7 @@ public class MOS_WORD extends JDialog
     JButton btnOk = new JButton("Ok");
     
         
-        public MOS_WORD()
+        public Mos_Word()
         {
             super();
             setModal(true);
@@ -72,7 +72,7 @@ public class MOS_WORD extends JDialog
         
     public static void main(String args[]) 
     {
-        MOS_WORD quiz = new MOS_WORD();
+        Mos_Word quiz = new Mos_Word();
         int score = quiz.startword();
         
         JOptionPane.showMessageDialog(null,"Your score: "+score,"",JOptionPane.INFORMATION_MESSAGE); 
